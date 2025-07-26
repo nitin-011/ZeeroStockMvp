@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/common/Navbar';
 import Footer from './components/common/Footer';
+// import './App.css'
 
 // Import public pages
 import HomePage from './pages/public/HomePage';
@@ -172,3 +173,5 @@ function App() {
 }
 
 export default App;
+
+
