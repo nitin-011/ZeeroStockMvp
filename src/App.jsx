@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/common/Navbar';
 import Footer from './components/common/Footer';
-// import './App.css'
 
 // Import public pages
 import HomePage from './pages/public/HomePage';
@@ -40,7 +39,7 @@ import AdminListingsPage from './pages/admin/AdminListingPage';
 import AdminVerificationsPage from './pages/admin/AdminTransactionPage';
 import AdminTransactionsPage from './pages/admin/AdminTransactionPage';
 import AdminAnalyticsPage from './pages/admin/AdminAnalyticsPage';
-import AdminSettingsPage from './pages/admin/AdminSettingsPage.jsx';
+import AdminSettingsPage from './pages/admin/AdminSettingsPage.jsx.jsx';
 import AdminReportsPage from './pages/admin/AdminReportsPage';
 
 
@@ -173,5 +172,3 @@ function App() {
 }
 
 export default App;
-
-

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardContent } from '../../components/ui/card'; // Import Shadcn Card components
+import { Card, CardContent } from '../ui/card'; // Import Shadcn Card components
 
 const FeaturedCategories = () => {
   const categories = [

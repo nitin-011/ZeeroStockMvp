@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button } from '../../components/ui/button'; // Import Shadcn Button
-import { Input } from '../../components/ui/input';   // Import Shadcn Input
+import { Button } from '../ui/button'; // Import Shadcn Button
+import { Input } from '../ui/input';   // Import Shadcn Input
 import { useNavigate } from 'react-router-dom'; // Import useNavigate hook
 
 const HeroSection = () => {
